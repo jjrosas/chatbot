@@ -1,0 +1,143 @@
+-1: Outliers
+0: Cancelación
+1: Tracking
+2: Tracking
+3: Impuestos y aduana
+4: Reembolso
+5: Tracking
+6: Agradecimientos
+7: Impuestos y aduana
+8: Impuestos y aduana
+9: Tracking
+10: Revisar
+11: Tracking
+12: Embalaje
+13: Tracking
+14: Precio Final
+15: Tracking
+16: Devoluciones
+17: Mensajes marketplace
+18: Tracking
+19: Producto Original
+20: Tracking
+21: Tracking
+22: Tracking
+23: Tracking
+24: Nota Fiscal
+25: Tracking
+26: Tracking
+27: Producto Diferente
+28: Tracking
+29: Tracking
+30: Cambio en dirección de entrega
+31: Varios
+32: Reembolso
+33: Reembolso
+34: Varios
+35: Intento de entrega
+36: Tracking
+37: Varios
+38: Varios
+39: Pedido de ayuda
+40: Varios
+41: Varios
+42: Voltaje
+43: Impuestos y aduana
+44: Impuestos y aduana
+45: Reembolso
+46: Tracking
+47: Pedido de ayuda
+48: Tracking
+49: Tracking
+50: Primera Compra
+51: Varios
+52: Impuestos y aduana
+53: Tracking
+54: Tracking
+55: Varios
+56: Varios
+57: Cancelación
+58: Pedido de ayuda
+59: Tracking
+60: Nota Fiscal
+61: Reembolso
+62: Tracking
+63: Tracking
+64: Agradecimiento
+65: Varios
+66: Varios
+67: Producto Diferente
+68: Consulta sobre pago
+69: Tracking
+70: Intento de entrega
+71: Consulta sobre pago
+72: Consulta sobre mail
+73: Reembolso
+74: Tracking
+75: Tracking
+76: Envio de archivos
+77: Dirección
+78: Producto Diferente
+79: Impuestos y aduana
+80: Producto Diferente
+81: Producto Original
+82: Nota Fiscal
+83: Tracking
+84: Tracking
+85: Tracking
+86: Tracking
+87: Cancelación
+88: Agradecimiento
+89: Tracking
+90: Varios
+91: Varios
+92: Mensaje del marketplace
+93: Saludos
+94: Varios
+95: Impuestos y aduana
+96: Varios
+97: Varios
+98: Varios
+99: Varios
+100: Tracking
+101: Reclamo
+102: Tracking
+103: Impuestos y aduana
+104: Varios
+105: Tracking
+106: Agradecimiento
+107: Tracking
+108: Varios
+109: Impuestos y aduana
+110: Impuestos y aduana
+111: Varios
+112: Producto Diferente
+113: Impuestos y aduana
+114: Agradecimiento
+115: Producto Diferente
+116: Producto Diferente
+117: Varios
+118: Varios
+119: Varios
+120: Consulta sobre pago
+121: Impuestos y aduana
+122: Intento de entrega
+123: Agradecimiento
+124: Tracking
+125: Varios
+126: Envio de archivos
+127: Problema con producto
+128: Problema con producto
+129: Tracking
+130: Tracking
+131: Impuestos y aduana
+132: Tracking
+133: Impuestos y aduana
+134: Tracking
+135: Pedido de Link
+136: Varios
+137: Tracking
+138: Varios
+139: Tracking
+140: Varios
+141: Tracking
