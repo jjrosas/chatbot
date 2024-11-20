@@ -143,7 +143,7 @@ def paso_8_cargar_modelo_bertopic():
     Carga el modelo BERTopic desde la ruta especificada.
     """
     try:
-        ruta_modelo = '/Users/user/Predize info/bertopic_model_post'
+        ruta_modelo = 'bertopic_model_post'
         modelo = BERTopic.load(ruta_modelo)
         logging.info("Modelo BERTopic cargado.")
         return modelo
@@ -171,7 +171,7 @@ def paso_10_cargar_topic_names():
     Carga el archivo de topic names y devuelve un diccionario.
     """
     try:
-        ruta_topic_names = '/mnt/data/topic_names.txt'
+        ruta_topic_names = 'topic_names.txt'
         topic_map = {}
         with open(ruta_topic_names, 'r') as f:
             for line in f:
