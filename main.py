@@ -4,7 +4,8 @@ import pandas as pd
 from bertopic import BERTopic
 from src.predize_utils import fetch_api_order_ids, convert_tickets_to_df
 from src.predize import Predize
-
+last_message_to = datetime.utcnow() - timedelta(minutes=15)  # 
+LAST_MESSAGE_MINUTES = 90 
 # Configuración del logger
 logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -40,7 +41,7 @@ def paso_2_obtener_tickets(predize_instance):
     """
     try:
         now = datetime.utcnow()
-        fifteen_minutes_ago = now - timedelta(minutes=15)
+        fifteen_minutes_ago = now - timedelta(minutes = LAST_MESSAGE_MINUTES)
 
         tickets_response = predize_instance.get_tickets(
             last_message_to=fifteen_minutes_ago.isoformat() + "Z",
@@ -122,7 +123,7 @@ def paso_6_filtrar_por_channel(df_combined):
             df_filtered = df_combined
         return df_filtered
     except Exception as e:
-        logging.error(f"Error al filtrar mensajes por channelAccount_channel: {e}")
+        logging.error(f"Error al filtrar mensajes por channelAccount_channel: {e}") 
         raise
 
 def paso_7_simplificar_dataframe(df_combined):
@@ -130,9 +131,10 @@ def paso_7_simplificar_dataframe(df_combined):
     Simplifica el DataFrame combinado para incluir solo ticket_id, message y order_id.
     """
     try:
-        columnas_necesarias = ['ticket_id', 'message', 'order_id']
+        columnas_necesarias = ['ticket_id', 'message']
         df_simplificado = df_combined[columnas_necesarias]
         logging.info(f"DataFrame simplificado: {len(df_simplificado)} filas.")
+        ## poner condicion mas de 1 ticket
         return df_simplificado
     except Exception as e:
         logging.error(f"Error al simplificar el DataFrame: {e}")
