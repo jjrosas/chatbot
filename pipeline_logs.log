@@ -1,0 +1,41 @@
+2024-11-20 14:22:51,653 - INFO - Instancia creada exitosamente.
+2024-11-20 14:23:22,660 - INFO - Tickets obtenidos: 16
+2024-11-20 14:23:22,663 - INFO - Tickets filtrados por type='POST_ORDER': 3
+2024-11-20 14:23:23,416 - INFO - Mensajes obtenidos y combinados: 3
+2024-11-20 14:23:23,421 - INFO - Mensajes filtrados por seller=false: 2
+2024-11-20 14:23:23,426 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 1
+2024-11-20 14:23:23,430 - ERROR - Error al simplificar el DataFrame: "['order_id'] not in index"
+2024-11-20 14:24:10,744 - INFO - Instancia creada exitosamente.
+2024-11-20 14:24:25,873 - INFO - Tickets obtenidos: 17
+2024-11-20 14:24:25,876 - INFO - Tickets filtrados por type='POST_ORDER': 4
+2024-11-20 14:24:26,618 - INFO - Mensajes obtenidos y combinados: 4
+2024-11-20 14:24:26,621 - INFO - Mensajes filtrados por seller=false: 3
+2024-11-20 14:24:32,059 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 2
+2024-11-20 14:24:32,062 - ERROR - Error al simplificar el DataFrame: "['order_id'] not in index"
+2024-11-20 14:25:56,064 - INFO - Instancia creada exitosamente.
+2024-11-20 14:26:11,728 - INFO - Tickets obtenidos: 17
+2024-11-20 14:26:11,731 - INFO - Tickets filtrados por type='POST_ORDER': 4
+2024-11-20 14:26:12,470 - INFO - Mensajes obtenidos y combinados: 4
+2024-11-20 14:26:12,473 - INFO - Mensajes filtrados por seller=false: 3
+2024-11-20 14:26:12,475 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 2
+2024-11-20 17:17:43,744 - INFO - Instancia creada exitosamente.
+2024-11-20 17:18:02,236 - INFO - Tickets obtenidos: 75
+2024-11-20 17:18:02,238 - INFO - Tickets filtrados por type='POST_ORDER': 23
+2024-11-20 17:18:04,228 - INFO - Mensajes obtenidos y combinados: 23
+2024-11-20 17:18:04,229 - INFO - Mensajes filtrados por seller=false: 13
+2024-11-20 17:18:04,232 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 8
+2024-11-20 17:18:08,969 - INFO - DataFrame simplificado: 8 filas.
+2024-11-20 17:21:37,968 - INFO - Instancia creada exitosamente.
+2024-11-20 17:21:46,696 - INFO - Tickets obtenidos: 73
+2024-11-20 17:21:46,697 - INFO - Tickets filtrados por type='POST_ORDER': 21
+2024-11-20 17:21:48,756 - INFO - Mensajes obtenidos y combinados: 21
+2024-11-20 17:21:48,758 - INFO - Mensajes filtrados por seller=false: 11
+2024-11-20 17:21:48,760 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 6
+2024-11-20 17:21:48,761 - INFO - DataFrame simplificado: 6 filas.
+2024-11-20 17:21:48,789 - INFO - Use pytorch device_name: cpu
+2024-11-20 17:21:48,789 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-20 17:22:12,607 - INFO - Modelo BERTopic cargado.
+2024-11-20 17:22:16,471 - INFO - Topics asignados a los mensajes.
+2024-11-20 17:22:25,869 - INFO - Topic names cargados.
+2024-11-20 17:22:25,873 - INFO - Topic names asignados.
+2024-11-20 17:22:30,170 - INFO - Mensajes filtrados por topic_name='tracking': 0
