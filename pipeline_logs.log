@@ -39,3 +39,227 @@
 2024-11-20 17:22:25,869 - INFO - Topic names cargados.
 2024-11-20 17:22:25,873 - INFO - Topic names asignados.
 2024-11-20 17:22:30,170 - INFO - Mensajes filtrados por topic_name='tracking': 0
+2024-11-21 12:06:13,635 - INFO - Instancia creada exitosamente.
+2024-11-21 12:06:21,012 - INFO - Tickets obtenidos: 95
+2024-11-21 12:06:21,013 - INFO - Tickets filtrados por type='POST_ORDER': 53
+2024-11-21 12:06:21,858 - INFO - Mensajes obtenidos y combinados: 53
+2024-11-21 12:06:21,859 - INFO - Mensajes filtrados por seller=false: 19
+2024-11-21 12:06:21,860 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 11
+2024-11-21 12:06:21,861 - INFO - DataFrame simplificado: 11 filas.
+2024-11-21 12:06:21,907 - INFO - Use pytorch device_name: mps
+2024-11-21 12:06:21,907 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-21 12:06:51,330 - INFO - Instancia creada exitosamente.
+2024-11-21 12:07:00,061 - INFO - Tickets obtenidos: 94
+2024-11-21 12:07:00,062 - INFO - Tickets filtrados por type='POST_ORDER': 53
+2024-11-21 12:07:00,918 - INFO - Mensajes obtenidos y combinados: 53
+2024-11-21 12:07:00,920 - INFO - Mensajes filtrados por seller=false: 19
+2024-11-21 12:07:00,921 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 11
+2024-11-21 12:07:00,921 - INFO - DataFrame simplificado: 11 filas.
+2024-11-21 12:07:00,949 - INFO - Use pytorch device_name: mps
+2024-11-21 12:07:00,949 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-21 12:11:38,841 - INFO - Instancia creada exitosamente.
+2024-11-21 12:11:51,969 - INFO - Tickets obtenidos: 93
+2024-11-21 12:11:51,970 - INFO - Tickets filtrados por type='POST_ORDER': 52
+2024-11-21 12:11:52,799 - INFO - Mensajes obtenidos y combinados: 52
+2024-11-21 12:11:52,800 - INFO - Mensajes filtrados por seller=false: 16
+2024-11-21 12:11:52,801 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 8
+2024-11-21 12:11:52,801 - INFO - DataFrame simplificado: 8 filas.
+2024-11-21 12:11:52,832 - INFO - Use pytorch device_name: mps
+2024-11-21 12:11:52,832 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-21 14:32:51,140 - INFO - Instancia creada exitosamente.
+2024-11-21 14:32:59,086 - INFO - Tickets obtenidos: 62
+2024-11-21 14:32:59,087 - INFO - Tickets filtrados por type='POST_ORDER': 15
+2024-11-21 14:32:59,404 - INFO - Mensajes obtenidos y combinados: 15
+2024-11-21 14:32:59,406 - INFO - Mensajes filtrados por seller=false: 13
+2024-11-21 14:32:59,407 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 11
+2024-11-21 14:32:59,408 - INFO - DataFrame simplificado: 11 filas.
+2024-11-21 14:32:59,451 - INFO - Use pytorch device_name: mps
+2024-11-21 14:32:59,451 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-21 14:38:31,401 - INFO - Instancia creada exitosamente.
+2024-11-21 14:38:37,794 - INFO - Tickets obtenidos: 63
+2024-11-21 14:38:37,794 - INFO - Tickets filtrados por type='POST_ORDER': 17
+2024-11-21 14:38:38,132 - INFO - Mensajes obtenidos y combinados: 17
+2024-11-21 14:38:38,132 - ERROR - Error al obtener channelOrderId: name 'requests' is not defined
+2024-11-21 14:38:38,132 - CRITICAL - El flujo se detuvo debido a un error crítico: name 'requests' is not defined
+2024-11-21 14:39:16,648 - INFO - Instancia creada exitosamente.
+2024-11-21 14:39:27,772 - INFO - Tickets obtenidos: 62
+2024-11-21 14:39:27,773 - INFO - Tickets filtrados por type='POST_ORDER': 16
+2024-11-21 14:39:28,103 - INFO - Mensajes obtenidos y combinados: 16
+2024-11-21 14:39:30,118 - INFO - Campo channelOrderId agregado.
+2024-11-21 14:39:30,119 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 10
+2024-11-21 14:39:30,120 - ERROR - Error al simplificar el DataFrame: "['order_id'] not in index"
+2024-11-21 14:39:30,120 - CRITICAL - El flujo se detuvo debido a un error crítico: "['order_id'] not in index"
+2024-11-21 14:40:12,076 - INFO - Instancia creada exitosamente.
+2024-11-21 14:40:18,519 - INFO - Tickets obtenidos: 61
+2024-11-21 14:40:18,521 - INFO - Tickets filtrados por type='POST_ORDER': 16
+2024-11-21 14:40:18,851 - INFO - Mensajes obtenidos y combinados: 16
+2024-11-21 14:40:21,390 - INFO - Campo channelOrderId agregado.
+2024-11-21 14:40:21,393 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 10
+2024-11-21 14:40:21,394 - ERROR - Error al simplificar el DataFrame: "['order_id'] not in index"
+2024-11-21 14:40:21,394 - CRITICAL - El flujo se detuvo debido a un error crítico: "['order_id'] not in index"
+2024-11-21 14:40:55,484 - INFO - Instancia creada exitosamente.
+2024-11-21 14:40:59,949 - INFO - Tickets obtenidos: 61
+2024-11-21 14:40:59,951 - INFO - Tickets filtrados por type='POST_ORDER': 15
+2024-11-21 14:41:00,334 - INFO - Mensajes obtenidos y combinados: 15
+2024-11-21 14:41:02,259 - INFO - Campo channelOrderId agregado.
+2024-11-21 14:41:02,263 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 10
+2024-11-21 14:41:02,265 - ERROR - Error al simplificar el DataFrame: "['order_id'] not in index"
+2024-11-21 14:41:02,265 - CRITICAL - El flujo se detuvo debido a un error crítico: "['order_id'] not in index"
+2024-11-21 14:41:36,481 - INFO - Instancia creada exitosamente.
+2024-11-21 14:41:48,799 - INFO - Tickets obtenidos: 60
+2024-11-21 14:41:48,800 - INFO - Tickets filtrados por type='POST_ORDER': 14
+2024-11-21 14:41:49,182 - INFO - Mensajes obtenidos y combinados: 14
+2024-11-21 14:41:51,027 - INFO - Campo channelOrderId agregado.
+2024-11-21 14:41:51,029 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 9
+2024-11-21 14:41:51,030 - INFO - DataFrame simplificado: 9 filas.
+2024-11-21 14:41:51,064 - INFO - Use pytorch device_name: mps
+2024-11-21 14:41:51,064 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-21 14:43:08,371 - INFO - Instancia creada exitosamente.
+2024-11-21 14:43:16,155 - INFO - Tickets obtenidos: 59
+2024-11-21 14:43:16,156 - INFO - Tickets filtrados por type='POST_ORDER': 14
+2024-11-21 14:43:16,465 - INFO - Mensajes obtenidos y combinados: 14
+2024-11-21 14:43:18,157 - INFO - Campo channelOrderId agregado.
+2024-11-21 14:43:18,158 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 9
+2024-11-21 14:43:18,159 - INFO - DataFrame simplificado: 9 filas.
+2024-11-21 14:43:18,182 - INFO - Use pytorch device_name: mps
+2024-11-21 14:43:18,182 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-21 14:43:34,475 - INFO - Instancia creada exitosamente.
+2024-11-21 14:43:41,193 - INFO - Tickets obtenidos: 58
+2024-11-21 14:43:41,194 - INFO - Tickets filtrados por type='POST_ORDER': 14
+2024-11-21 14:43:41,528 - INFO - Mensajes obtenidos y combinados: 14
+2024-11-21 14:43:43,254 - INFO - Campo channelOrderId agregado.
+2024-11-21 14:43:43,256 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 9
+2024-11-21 14:43:43,256 - INFO - DataFrame simplificado: 9 filas.
+2024-11-21 14:43:43,289 - INFO - Use pytorch device_name: mps
+2024-11-21 14:43:43,289 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-21 15:00:36,411 - INFO - Instancia creada exitosamente.
+2024-11-21 15:00:48,893 - INFO - Tickets obtenidos: 61
+2024-11-21 15:00:48,894 - INFO - Tickets filtrados por type='POST_ORDER': 16
+2024-11-21 15:00:49,191 - INFO - Mensajes obtenidos y combinados: 16
+2024-11-21 15:00:51,986 - INFO - Campo channelOrderId agregado.
+2024-11-21 15:00:51,988 - ERROR - Error al buscar order_id con channelOrderId: 'module' object is not subscriptable
+2024-11-21 15:00:51,988 - CRITICAL - El flujo se detuvo debido a un error crítico: 'module' object is not subscriptable
+2024-11-21 15:06:15,740 - INFO - Instancia creada exitosamente.
+2024-11-21 15:06:28,820 - INFO - Tickets obtenidos: 60
+2024-11-21 15:06:28,821 - INFO - Tickets filtrados por type='POST_ORDER': 16
+2024-11-21 15:06:29,117 - INFO - Mensajes obtenidos y combinados: 16
+2024-11-21 15:06:31,125 - INFO - Campo channelOrderId agregado.
+2024-11-21 15:06:31,128 - ERROR - Error al buscar order_id con channelOrderId: 'module' object is not subscriptable
+2024-11-21 15:06:31,128 - CRITICAL - El flujo se detuvo debido a un error crítico: 'module' object is not subscriptable
+2024-11-21 15:19:37,815 - INFO - Instancia creada exitosamente.
+2024-11-21 15:19:43,242 - INFO - Tickets obtenidos: 60
+2024-11-21 15:19:43,243 - INFO - Tickets filtrados por type='POST_ORDER': 17
+2024-11-21 15:19:43,588 - INFO - Mensajes obtenidos y combinados: 17
+2024-11-21 15:19:45,670 - INFO - Campo channelOrderId agregado.
+2024-11-21 15:19:45,673 - ERROR - Error al buscar order_id con channelOrderId: 'module' object is not subscriptable
+2024-11-21 15:19:45,674 - CRITICAL - El flujo se detuvo debido a un error crítico: 'module' object is not subscriptable
+2024-11-21 15:21:44,367 - INFO - Instancia creada exitosamente.
+2024-11-21 15:21:48,753 - INFO - Tickets obtenidos: 65
+2024-11-21 15:21:48,754 - INFO - Tickets filtrados por type='POST_ORDER': 19
+2024-11-21 15:21:49,081 - INFO - Mensajes obtenidos y combinados: 19
+2024-11-21 15:21:51,588 - INFO - Campo channelOrderId agregado.
+2024-11-21 15:21:51,588 - CRITICAL - El flujo se detuvo debido a un error crítico: 'module' object is not subscriptable
+2024-11-21 15:23:55,723 - INFO - Instancia creada exitosamente.
+2024-11-21 15:24:00,165 - INFO - Tickets obtenidos: 69
+2024-11-21 15:24:00,166 - INFO - Tickets filtrados por type='POST_ORDER': 21
+2024-11-21 15:24:00,801 - INFO - Mensajes obtenidos y combinados: 21
+2024-11-21 15:24:03,500 - INFO - Campo channelOrderId agregado.
+2024-11-21 15:24:03,502 - ERROR - Error al buscar order_id con channelOrderId: 'module' object is not subscriptable
+2024-11-21 15:24:03,503 - CRITICAL - El flujo se detuvo debido a un error crítico: 'module' object is not subscriptable
+2024-11-21 15:28:37,384 - INFO - Instancia creada exitosamente.
+2024-11-21 15:28:42,301 - INFO - Tickets obtenidos: 70
+2024-11-21 15:28:42,302 - INFO - Tickets filtrados por type='POST_ORDER': 20
+2024-11-21 15:28:42,647 - INFO - Mensajes obtenidos y combinados: 20
+2024-11-21 15:28:45,145 - INFO - Campo channelOrderId agregado.
+2024-11-21 15:28:45,148 - ERROR - Error al buscar order_id con channelOrderId: 'module' object is not subscriptable
+2024-11-21 15:28:45,148 - CRITICAL - El flujo se detuvo debido a un error crítico: 'module' object is not subscriptable
+2024-11-21 15:29:44,100 - INFO - Instancia creada exitosamente.
+2024-11-21 15:29:48,472 - INFO - Tickets obtenidos: 71
+2024-11-21 15:29:48,473 - INFO - Tickets filtrados por type='POST_ORDER': 20
+2024-11-21 15:29:48,800 - INFO - Mensajes obtenidos y combinados: 20
+2024-11-21 15:29:51,496 - INFO - Campo channelOrderId agregado.
+2024-11-21 15:29:51,498 - ERROR - Error al buscar order_id con channelOrderId: 'module' object is not subscriptable
+2024-11-21 15:29:51,498 - CRITICAL - El flujo se detuvo debido a un error crítico: 'module' object is not subscriptable
+2024-11-21 15:31:23,570 - INFO - Instancia creada exitosamente.
+2024-11-21 15:31:28,435 - INFO - Tickets obtenidos: 71
+2024-11-21 15:31:28,436 - INFO - Tickets filtrados por type='POST_ORDER': 20
+2024-11-21 15:31:28,786 - INFO - Mensajes obtenidos y combinados: 20
+2024-11-21 15:31:31,471 - INFO - Campo channelOrderId agregado.
+2024-11-21 15:31:31,472 - CRITICAL - El flujo se detuvo debido a un error crítico: name 'db_credentials_nocnoc' is not defined
+2024-11-21 15:32:35,717 - INFO - Instancia creada exitosamente.
+2024-11-21 15:32:46,371 - INFO - Tickets obtenidos: 71
+2024-11-21 15:32:46,371 - INFO - Tickets filtrados por type='POST_ORDER': 20
+2024-11-21 15:32:46,704 - INFO - Mensajes obtenidos y combinados: 20
+2024-11-21 15:32:46,704 - CRITICAL - El flujo se detuvo debido a un error crítico: name 'db_credentials_nocnoc' is not defined
+2024-11-21 15:33:04,243 - INFO - Instancia creada exitosamente.
+2024-11-21 15:33:08,669 - INFO - Tickets obtenidos: 72
+2024-11-21 15:33:08,670 - INFO - Tickets filtrados por type='POST_ORDER': 20
+2024-11-21 15:33:08,981 - INFO - Mensajes obtenidos y combinados: 20
+2024-11-21 15:33:12,624 - INFO - Campo channelOrderId agregado.
+2024-11-21 15:33:12,627 - ERROR - Error al buscar order_id con channelOrderId: 'module' object is not subscriptable
+2024-11-21 15:33:12,627 - CRITICAL - El flujo se detuvo debido a un error crítico: 'module' object is not subscriptable
+2024-11-21 15:34:18,120 - INFO - Instancia creada exitosamente.
+2024-11-21 15:34:22,563 - INFO - Tickets obtenidos: 73
+2024-11-21 15:34:22,564 - INFO - Tickets filtrados por type='POST_ORDER': 20
+2024-11-21 15:34:22,917 - INFO - Mensajes obtenidos y combinados: 20
+2024-11-21 15:34:25,378 - INFO - Campo channelOrderId agregado.
+2024-11-21 15:34:25,380 - ERROR - Error al buscar order_id con channelOrderId: 'module' object is not subscriptable
+2024-11-21 15:34:25,380 - CRITICAL - El flujo se detuvo debido a un error crítico: 'module' object is not subscriptable
+2024-11-21 15:36:05,353 - INFO - Instancia creada exitosamente.
+2024-11-21 15:36:09,772 - INFO - Tickets obtenidos: 74
+2024-11-21 15:36:09,773 - INFO - Tickets filtrados por type='POST_ORDER': 21
+2024-11-21 15:36:10,222 - INFO - Mensajes obtenidos y combinados: 21
+2024-11-21 15:36:12,843 - INFO - Campo channelOrderId agregado.
+2024-11-21 15:36:12,887 - ERROR - Error al buscar order_id con channelOrderId: 'module' object is not subscriptable
+2024-11-21 15:36:12,887 - CRITICAL - El flujo se detuvo debido a un error crítico: 'module' object is not subscriptable
+2024-11-21 15:42:01,620 - INFO - Instancia creada exitosamente.
+2024-11-21 15:42:06,093 - INFO - Tickets obtenidos: 72
+2024-11-21 15:42:06,094 - INFO - Tickets filtrados por type='POST_ORDER': 19
+2024-11-21 15:42:06,393 - INFO - Mensajes obtenidos y combinados: 19
+2024-11-21 15:42:10,819 - INFO - Campo channelOrderId agregado.
+2024-11-21 15:42:10,858 - INFO - No hay registros con channelAccount_channel='b2w'.
+2024-11-21 15:42:10,859 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 13
+2024-11-21 15:42:10,859 - ERROR - Error al simplificar el DataFrame: "['order_id'] not in index"
+2024-11-21 15:42:10,859 - CRITICAL - El flujo se detuvo debido a un error crítico: "['order_id'] not in index"
+2024-11-21 15:45:53,059 - INFO - Instancia creada exitosamente.
+2024-11-21 15:45:58,464 - INFO - Tickets obtenidos: 74
+2024-11-21 15:45:58,465 - INFO - Tickets filtrados por type='POST_ORDER': 20
+2024-11-21 15:45:58,767 - INFO - Mensajes obtenidos y combinados: 20
+2024-11-21 15:46:01,951 - INFO - Campo channelOrderId agregado.
+2024-11-21 15:46:01,953 - INFO - No hay registros con channelAccount_channel='b2w'.
+2024-11-21 15:46:01,989 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 13
+2024-11-21 15:46:01,989 - ERROR - Error al simplificar el DataFrame: "['order_id'] not in index"
+2024-11-21 15:46:01,989 - CRITICAL - El flujo se detuvo debido a un error crítico: "['order_id'] not in index"
+2024-11-21 15:54:18,920 - INFO - Instancia creada exitosamente.
+2024-11-21 15:54:24,876 - INFO - Tickets obtenidos: 77
+2024-11-21 15:54:24,877 - INFO - Tickets filtrados por type='POST_ORDER': 24
+2024-11-21 15:54:25,281 - INFO - Mensajes obtenidos y combinados: 24
+2024-11-21 15:54:28,331 - INFO - Campo channelOrderId agregado.
+2024-11-21 15:54:30,429 - INFO - Registros actualizados para 'b2w': 0 filas.
+2024-11-21 15:54:30,431 - INFO - Registros actualizados para otros canales: 15 filas.
+2024-11-21 15:54:30,472 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 16
+2024-11-21 15:54:30,472 - INFO - DataFrame simplificado: 16 filas.
+2024-11-21 15:54:30,497 - INFO - Use pytorch device_name: mps
+2024-11-21 15:54:30,497 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-21 16:44:44,237 - INFO - Instancia creada exitosamente.
+2024-11-21 16:44:49,643 - INFO - Tickets obtenidos: 80
+2024-11-21 16:44:49,644 - INFO - Tickets filtrados por type='POST_ORDER': 30
+2024-11-21 16:44:50,289 - INFO - Mensajes obtenidos y combinados: 30
+2024-11-21 16:44:54,016 - INFO - Campo channelOrderId agregado.
+2024-11-21 16:44:55,926 - INFO - Registros actualizados para 'b2w': 0 filas.
+2024-11-21 16:44:55,928 - INFO - Registros actualizados para otros canales: 22 filas.
+2024-11-21 16:44:55,973 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 24
+2024-11-21 16:44:55,974 - INFO - DataFrame simplificado: 24 filas.
+2024-11-21 16:44:56,009 - INFO - Use pytorch device_name: mps
+2024-11-21 16:44:56,009 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-22 10:37:34,506 - INFO - Instancia creada exitosamente.
+2024-11-22 10:37:38,976 - INFO - Tickets obtenidos: 85
+2024-11-22 10:37:38,976 - INFO - Tickets filtrados por type='POST_ORDER': 31
+2024-11-22 10:37:39,903 - INFO - Mensajes obtenidos y combinados: 31
+2024-11-22 10:37:44,736 - INFO - Campo channelOrderId agregado.
+2024-11-22 10:37:46,771 - INFO - Registros actualizados para 'b2w': 0 filas.
+2024-11-22 10:37:46,773 - INFO - Registros actualizados para otros canales: 23 filas.
+2024-11-22 10:37:46,811 - INFO - Mensajes filtrados por channelAccount_channel='mercadolivre': 24
+2024-11-22 10:37:46,812 - INFO - DataFrame simplificado: 24 filas.
+2024-11-22 10:37:46,850 - INFO - Use pytorch device_name: mps
+2024-11-22 10:37:46,850 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
